@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "bxsj-KernelSU-Proton-release",
-      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
-      "branch": "cmi-r-oss",
-      "device": "cmi",
-      "defconfig": "cmi_user_defconfig"
+      "name": "A51-KernelSU-Proton",
+      "repo": "https://github.com/radiekaputrapage/samsung-a51-u7bbinary",
+      "branch": "main",
+      "device": "a515f",
+      "defconfig": "exynos9610-a51xx_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -39,8 +39,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/wdnmdkiki/AnyKernel3/",
-      "branch": "cmi"
+      "repo": "https://github.com/osm0sis/AnyKernel3",
+      "branch": "master"
     }
   }
 ]
